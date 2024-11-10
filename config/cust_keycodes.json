@@ -440,5 +440,22 @@
 		},
 		"footnotes": {},
 		"type": "UD"
+	},
+	{
+		"names": [
+			"RIGHT_SHIFT(RIGHT_ALT(KP_NUMMER_2))"
+		],
+		"description": "RIGHT_SHIFT(RIGHT_ALT(KP_NUMMER_2))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
 	}
 ]

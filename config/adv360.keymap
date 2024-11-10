@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                     &tog 1                                                                                   &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                      &none                                                                                   &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                      &none         &kp LEFT_COMMAND  &kp LALT                   &kp LGUI  &kp RIGHT_ALT      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                      &kp HOME                  &kp PG_UP                             &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &lt 1 BACKSPACE  &mt LEFT_CONTROL ESCAPE   &kp END                  &kp PG_DN      &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1          &kp N2        &kp N3            &kp N4  &kp N5                     &tog 1                                                                                         &mo 3  &kp N6             &kp N7         &kp N8           &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q           &kp W         &kp E             &kp R   &kp T                      &none                                                                                         &none   &kp Y              &kp U          &kp I            &kp O     &kp P   &kp BSLH
+   &kp TAB      &kp A           &kp S         &kp D             &kp F   &kp G                      &none           &kp LEFT_SHIFT  &kp LALT                  &kp RIGHT_SHIFT  &kp RIGHT_ALT      &none   &kp H              &kp J          &kp K            &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z           &kp X         &kp C             &kp V   &kp B                                                      &kp HOME                        &kp PG_UP                             &kp N              &kp M      &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND                    &lt 1 BACKSPACE  &mt LEFT_CONTROL ESCAPE   &kp END                        &kp PG_DN      &kp ENTER  &kp SPACE          &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RBKT      &mo 2
             >;
         };
 
@@ -80,11 +80,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans               &trans               &trans               &trans               &trans               &trans                         &trans                                                  &trans  &trans                   &trans                   &trans                   &trans                   &trans                   &trans
- &trans               &trans               &trans               &trans               &trans               &trans                         &trans                                                  &trans  &trans                   &trans                   &trans                   &trans                   &trans                   &trans
- &trans  &kp RA(KP_NUMBER_1)  &kp RA(KP_NUMBER_2)  &kp RA(KP_NUMBER_3)  &kp RA(KP_NUMBER_4)  &kp RA(KP_NUMBER_5)            &kp RA(KP_NUMBER_6)   &none  &trans                  &trans  &trans  &trans   &none  &kp RS(RA(KP_NUMBER_1))  &kp RS(RA(KP_NUMBER_2))  &kp RS(RA(KP_NUMBER_3))  &kp RS(RA(KP_NUMBER_4))  &kp RS(RA(KP_NUMBER_5))
- &trans               &trans               &trans               &trans               &trans               &trans                                         &trans                  &trans                  &trans                   &trans                   &trans                   &trans                   &trans                   &trans
- &trans               &trans               &trans               &trans               &trans                                              &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                   &trans                   &trans                   &trans                   &trans
+ &trans               &trans               &trans               &trans               &trans               &trans                         &trans                                                  &trans  &trans  &trans                                   &trans                   &trans                   &trans                   &trans
+ &trans               &trans               &trans               &trans               &trans               &trans                         &trans                                                  &trans  &trans  &trans                                   &trans                   &trans                   &trans                   &trans
+ &trans  &kp RA(KP_NUMBER_1)  &kp RA(KP_NUMBER_2)  &kp RA(KP_NUMBER_3)  &kp RA(KP_NUMBER_4)  &kp RA(KP_NUMBER_5)            &kp RA(KP_NUMBER_6)   &none  &trans                  &trans  &trans  &trans   &none   &none  &kp RIGHT_SHIFT(RIGHT_ALT(KP_NUMMER_2))  &kp RS(RA(KP_NUMBER_3))  &kp RS(RA(KP_NUMBER_4))  &kp RS(RA(KP_NUMBER_5))
+ &trans               &trans               &trans               &trans               &trans               &trans                                         &trans                  &trans                  &trans  &trans                                   &trans                   &trans                   &trans                   &trans
+ &trans               &trans               &trans               &trans               &trans                                              &trans  &trans  &trans                  &trans  &trans  &trans          &trans                                   &trans                   &trans                   &trans                   &trans
             >;
         };
 
